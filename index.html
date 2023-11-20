@@ -5,51 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do Widget</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header-ribbon"></div>
-        <div class="header-row">
-            <input type="text" placeholder="Title">
-        </div>
-        <div class="rectangle"></div>
-      </div>
-    </header>
-    <main class="widget-list">
-        <div class="container">
-        <div class="item">
+    <div class="widget">
+      <header class="header">
+          <div class="header-row">
+            <input class="main-title" type="text" placeholder="Title" />
+          </div>
+      </header>
+      <main class="widget-list">
+            <div class="item">
             <div class="item-content">
                 <div class="item-checkbox">
                     <div class="item-checkbox-tag">
-                        <img src="" alt="">
+                        <img src="./images/Icon (4).svg" alt="">
                     </div>
                     <input class="item-checkbox-content" placeholder="Title..."></input>
                 </div>
             </div>
             <div class="item-actions">
-                <button class="action-up"><img src="" alt=""></button>
-                <button class="action-down"><img src="" alt=""></button>
-                <button class="action-menu"><img src="" alt=""></button>
+                <button class="action-up"><img src="./images/Icon (7).svg" alt=""></button>
+                <button class="action-down"><img src="./images/Icon (1).svg" alt=""></button>
+                <button class="action-menu"><img src="./images/Icon (6).svg" alt=""></button>
             </div>
-        </div>
-        <div class="rectangle"></div>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="container">
+            </div>
+            <div class="item">
+                <div class="item-content">
+                    <div class="item-checkbox">
+                        <div class="item-checkbox-tag">
+                            <img src="./images/Icon (4).svg" alt="">
+                        </div>
+                        <input class="item-checkbox-content" placeholder="Title..."></input>
+                    </div>
+                </div>
+                <div class="item-actions">
+                    <button class="action-up"><img src="./images/Icon (7).svg" alt=""></button>
+                    <button class="action-down"><img src="./images/Icon (1).svg" alt=""></button>
+                    <button class="action-menu"><img src="./images/Icon (6).svg" alt=""></button>
+                </div>
+                </div>
+                <div class="item">
+                    <div class="item-content">
+                        <div class="item-checkbox">
+                            <div class="item-checkbox-tag">
+                                <img src="./images/Icon (4).svg" alt="">
+                            </div>
+                            <input class="item-checkbox-content" placeholder="Title..."></input>
+                        </div>
+                    </div>
+                    <div class="item-actions">
+                        <button class="action-up"><img src="./images/Icon (7).svg" alt=""></button>
+                        <button class="action-down"><img src="./images/Icon (1).svg" alt=""></button>
+                        <button class="action-menu"><img src="./images/Icon (6).svg" alt=""></button>
+                    </div>
+                    </div>
+      </main>   
+      <footer class="footer">
             <div class="footer-content">
-                <button class="action-completed">
-                    <img src="" alt="">
+                <button class="footer-btn action-completed">
+                    <img src="./images/Icon (2).svg" alt="">
                     <p>Completed 0 of 1</p>
                 </button>
-                <button class="action-add">
-                    <img src="" alt="">
+            </div>
+                <button class="footer-btn action-add">
+                    <img src="./images/Icon (8).svg" alt="">
                     <p>Add task</p>
                 </button>
-            </div>
-        </div>
-    </footer>
+      </footer>
+    </div>
+    <script src="js/scrypt.js"></script>
   </body>
-  <script src="js/scrypt.js"></script>
 </html>
